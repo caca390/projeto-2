@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap ');
+
+:root{
+--Branco: #ffffff;
+--Amarelo_ouro: #FDC807;
+--Preto_100: #000000;
+--Preto_90: #202226;
+}
+
+body{
+    font-family: Montserrat;
+    margin: 0px;
+}
+
+#main1{
+    background-image: url(imagens/header.png);
+    height:50vw;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    
+}
+
+#text1{
+    color: var(--Branco);
+    width: 600px;
+    font-size: 25px;
+    padding-left: 300px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+#text1 p{
+    font-size: 23px;
+}
+
+#imail{
+    border: #4e1d1d solid 2px;
+    height: 38px;
+    width: 30vw;
+    background-color: var(--Branco);
+    color: var(--Preto_100);
+    font-size: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#botao{
+    border: red 2px solid;
+    height: 50px;
+}
+
+
